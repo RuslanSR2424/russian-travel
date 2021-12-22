@@ -1,0 +1,30 @@
+.places {
+    padding-inline-start: 0px;
+    max-width: 984px;
+    margin: 92px 148px auto 148px; 
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+     
+}
+
+@media (min-width: 831px) and (max-width: 1024px) {
+    .places {
+        margin: 92px 48px auto 48px;
+        width:calc(100% - 96px);
+    }
+}
+  
+@media (min-width: 501px) and (max-width: 830px) {
+    .places  {
+        margin: 88px 24px auto 24px;
+        width:calc(100% - 48px);
+    }
+}
+  
+@media  (max-width: 500px) {
+    .places  {
+        margin: 0px 0px auto 0px;
+        width: 100%;
+    }
+}

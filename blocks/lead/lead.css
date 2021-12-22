@@ -1,0 +1,27 @@
+.lead {
+  max-width: calc(100% - 296px);
+  justify-content: center;
+  align-content: center;
+  margin: 56px 148px auto 148px;
+}
+
+@media (min-width: 831px) and (max-width: 1024px) {
+  .lead {
+    margin: 48px 48px auto 48px;
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media (min-width: 501px) and (max-width: 830px) {
+  .lead {
+    margin: 28px 0px auto 0px;
+    max-width: 100%;
+  }
+}
+
+@media  (max-width: 500px) {
+  .lead {
+    margin: 28px 0px auto 0px;
+    max-width: 100%;
+  }
+}
