@@ -1,3 +1,6 @@
+/* Не согласен с замечанием о том что появляется скролл на странице  при разрешении более 1000px http://joxi.ru/52a0kKdigo7Ynm  */
+
+
 /* Cover */
 
 @import url(./blocks/cover/__overlay/cover__overlay.css);

@@ -7,6 +7,7 @@
     color: #FFF;
     text-align: center;
     opacity: initial;
+    font-weight: regular;
 }
 
 @media  (max-width: 520px) {
