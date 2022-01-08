@@ -2,24 +2,7 @@
     background-color: #2A2C2F;
     max-width: 1280px;
     margin: 0 auto;
-    /* border: 1px solid green; */
     text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
 }
 
- @media (min-width: 831px) and (max-width: 1024px) {
-    .page {
-        max-width: 1024px;
-    }
-}
-
-@media (min-width: 501px) and (max-width: 830px) {
-    .page {
-        max-width: 768px;
-    }
-}
-
-@media  (max-width: 500px) {
-    .page {
-        max-width: 320px;
-    }
-} 

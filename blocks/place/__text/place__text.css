@@ -3,14 +3,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /*margin-bottom: 86px;*/
+    
 }
 
-@media (min-width: 831px) and (max-width: 1024px) {
-    .place__text {
-        width: 456px;
-    }
-}
   
 @media (min-width: 501px) and (max-width: 830px) {
     .place__text {
@@ -22,4 +17,4 @@
     .place__text {
         width: 288px;
     }
-}
+} 

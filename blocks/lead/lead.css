@@ -5,7 +5,7 @@
   margin: 56px 148px auto 148px;
 }
 
-@media (min-width: 831px) and (max-width: 1024px) {
+@media (min-width: 831px) and (max-width: 1000px) {
   .lead {
     margin: 48px 48px auto 48px;
     max-width: calc(100% - 96px);

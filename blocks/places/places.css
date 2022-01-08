@@ -4,11 +4,10 @@
     margin: 92px 148px auto 148px; 
     justify-content: center;
     align-items: center;
-    align-content: center;
-     
+    align-content: center; 
 }
 
-@media (min-width: 831px) and (max-width: 1024px) {
+@media (min-width: 831px)  {
     .places {
         margin: 92px 48px auto 48px;
         width:calc(100% - 96px);
