@@ -14,3 +14,8 @@
         margin-top: 32px;
     }
 }
+
+.footer__link:hover {
+    color: rgba(255, 255, 255, 0.8);
+    transition: linear 0.2s;
+}

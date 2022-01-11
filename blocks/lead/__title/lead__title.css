@@ -2,12 +2,12 @@
     color: #FFF;
     font-size: 96px;
     max-width: 720px;
-    max-height: 200px;
     margin: 0px auto;
     text-align: center;
     font-family: "Inter", "Arial", sans-serif;
     line-height: 100px;
     text-align: center;
+    font-weight: 900;
 }
 
 @media (max-width: 770px) {

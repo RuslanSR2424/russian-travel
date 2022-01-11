@@ -1,7 +1,10 @@
-.place__website-url {
-    color: #FFF;
+.place__website_url {
+    color: #AAA;
     text-decoration: none;
     letter-spacing: 2px;
     font-family: "Inter", "Arial", sans-serif;
     font-size: 12px;
+    line-height: 170%;
+    text-transform: uppercase;
 }
+

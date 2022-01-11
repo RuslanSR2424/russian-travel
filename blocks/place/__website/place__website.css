@@ -3,21 +3,17 @@
     justify-content: space-between;
     flex-direction: column;
     width: 456px;
-    height: 46px;
     margin-top: 106px;
-    
 }
 
 @media (min-width: 501px) and (max-width: 830px) {
     .place__website {
-        width: 352px;
-        height: 46px;
+        width: 352px;  
     }
 }
 @media  (max-width: 500px) {
     .place__website {
         width: 288px;
-        height: 46px;
         margin-top: 0px;
         margin-left: 16px;
     }

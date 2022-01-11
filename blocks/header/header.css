@@ -8,7 +8,6 @@
 
 @media (min-width: 831px) and (max-width: 1024px) {
 .header {
-  margin: 28px 48px auto 48px;
   max-width: calc(100% - 96px);
 }
 }

@@ -5,6 +5,7 @@
     background-image: url(../../images/__background.jpg);
     background-position: center;
     background-size: cover;
+    
 }
 
 @media (min-width: 831px) and (max-width: 1024px) {
@@ -29,3 +30,4 @@
         height: 200px;
     }
 }
+

@@ -8,6 +8,8 @@
     text-align: center;
     opacity: initial;
     font-weight: regular;
+    margin: 0px;
+    max-width: 360px;
 }
 
 @media  (max-width: 520px) {

@@ -8,6 +8,8 @@
     font-weight: bold;
     list-style-type: none;
     padding-inline-start: 0px;
+    line-height: 18px;
+    margin-bottom: 0px;
  }
  
  @media (min-width: 501px) and (max-width: 1025px) {
