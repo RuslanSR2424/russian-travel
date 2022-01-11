@@ -6,7 +6,7 @@
     margin: 32px auto 64px auto;
     line-height: 36px;
     font-weight: 400;
-    max-width: 640px;
+    width: 640px;
 }
 
 @media (max-width: 770px) {
