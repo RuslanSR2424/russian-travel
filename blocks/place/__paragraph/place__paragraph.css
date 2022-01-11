@@ -5,6 +5,7 @@
     line-height: 163%;
     font-weight: normal;
     margin-bottom: 26px;
+    margin-top: 0px;
 }
 
 @media (min-width: 501px) and (max-width: 830px) {
