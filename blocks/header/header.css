@@ -2,13 +2,13 @@
   display: flex;
   align-content: space-between;
   justify-content: space-between;
-  width: 90%;
+  max-width: 1184px;
   margin: 28px 48px auto 48px;
 }
 
 @media (min-width: 831px) and (max-width: 1024px) {
 .header {
-  max-width: calc(100% - 96px);
+  max-width: 928px;
 }
 }
 

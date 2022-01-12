@@ -1,0 +1,12 @@
+.place__website-link {
+    color: #FFF;
+    text-decoration: underline;
+    font-family: "Inter", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    transition: linear 0.4s;
+}
+
+.place__website-link:hover {
+    color: rgba(255, 255, 255, 0.8);
+}

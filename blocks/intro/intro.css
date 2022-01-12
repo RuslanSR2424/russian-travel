@@ -4,12 +4,6 @@
   max-width: 690px;
 }
 
-/* @media (min-width: 831px) and (max-width: 1024px) {
-  .intro {
-    margin: 92px auto auto auto
-  }
-} */
-
 @media (min-width: 501px) and (max-width: 830px) {
   .intro {
     margin: 88px 24px auto 24px;

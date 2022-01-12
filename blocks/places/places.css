@@ -1,13 +1,13 @@
 .places {
     padding-inline-start: 0px;
     max-width: 984px;
-    margin: 92px 148px auto 148px; 
+    margin: 92px auto auto auto; 
     justify-content: center;
     align-items: center;
     align-content: center; 
 }
 
-@media (min-width: 831px)  {
+@media (min-width: 831px) and (max-width: 1000px) {
     .places {
         margin: 92px 48px auto 48px;
         width:calc(100% - 96px);
@@ -16,14 +16,14 @@
   
 @media (min-width: 501px) and (max-width: 830px) {
     .places  {
-        margin: 88px 24px auto 24px;
+        margin: 88px 24px auto 24px;  /*Я перепроверил, но отступ я верный указал для этих брейкпоинтов, возможно замечание было ошибочным так как такое же замечание было и к брейкпоинту на 500px */
         width:calc(100% - 48px);
     }
 }
   
 @media  (max-width: 500px) {
     .places  {
-        margin: 0px 0px auto 0px;
+        margin: 64px 0px auto 0px;
         width: 100%;
     }
 }

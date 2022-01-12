@@ -6,10 +6,7 @@
     line-height: 28px;
     text-decoration: none;
     font-weight: normal;
-}
-
-.header__lang-link:focus {
-    text-decoration: underline;
+    transition: linear 0.5s;
 }
 
 @media screen and (max-width: 501px) {
@@ -17,22 +14,9 @@
         line-height: 20px;
         font-size: 18px;
     }
-
 }
 
-@media (max-width: 501px) {
-    .header__lang-link {
-    font-size: 18px;
-    line-height: 20px;
-    margin: 18px 0px 0px 18px;
-    }
-}
-
-.header__lang-link:nth-last-child(2) { 
-    margin-left: 0px;
-}
 
 .header__lang-link:hover {
     color: rgba(255, 255, 255, 0.5);
-    transition: linear 0.5s;
 }
