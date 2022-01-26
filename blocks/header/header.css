@@ -7,9 +7,9 @@
 }
 
 @media (min-width: 831px) and (max-width: 1024px) {
-.header {
-  max-width: 928px;
-}
+  .header {
+    max-width: 928px;
+  }
 }
 
 @media (min-width: 501px) and (max-width: 830px) {

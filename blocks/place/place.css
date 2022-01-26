@@ -2,25 +2,28 @@
   display: grid;
   grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
   gap: 40px 48px;
+  padding: 2px;
 }
 
-@media (min-width: 831px) and (max-width: 1000px) {
+@media (min-width: 831px) and (max-width: 1024px) {
   .place {
     gap: 32px 48px;
-    grid-template-columns: repeat(2, 440px);
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 54px; /* по макету отступ должен быть 80px но так как у paragraph есть нижний отступ 26px потому я указал здесь разницу чтобы они при сложении образовали отступ в 80px */
   }
 }
   
 @media (min-width: 758px) and (max-width: 830px) {
   .place {
-    grid-template-columns: repeat(2, 340px);
+    grid-template-columns: repeat(2, 1fr);
     gap: 48px 28px;
+    margin-top: 47px;  
   }
 }
 
 @media  (max-width: 755px) {
   .place {
     gap: 32px;
-    grid-template-columns: repeat(1, 320px);
+    grid-template-columns:  1fr;
   }
 }

@@ -5,9 +5,10 @@
     align-items: center;
     text-decoration: none;
     width: 100%;
-    height: 100%;
+    height: inherit;
     background-color: rgba(47, 44, 47, 0.3); 
     transition: linear 0.5s;
+    position: relative;
 }
 
 @media (min-width: 831px) and (max-width: 1024px) {
@@ -17,6 +18,6 @@
     }
 }
 
- .cover__overlay:hover {
+.cover__overlay:hover {
     background-color: rgba(47, 44, 47, 0.8); 
 }  

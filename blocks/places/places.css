@@ -7,7 +7,7 @@
     align-content: center; 
 }
 
-@media (min-width: 831px) and (max-width: 1000px) {
+@media (min-width: 831px) and (max-width: 1024px) {
     .places {
         margin: 92px 48px auto 48px;
         width:calc(100% - 96px);
@@ -23,7 +23,7 @@
   
 @media  (max-width: 500px) {
     .places  {
-        margin: 64px 0px auto 0px;
+        margin: 39px 0px auto 0px;
         width: 100%;
     }
 }

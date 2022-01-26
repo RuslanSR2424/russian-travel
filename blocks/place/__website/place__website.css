@@ -2,20 +2,21 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 456px;
+    max-width: 456px;
     margin-top: 106px;
 }
 
 @media (min-width: 501px) and (max-width: 830px) {
     .place__website {
-        width: 352px;  
+        max-width: 352px; 
+        margin-top: 0px; 
     }
 }
 
 @media  (max-width: 500px) {
     .place__website {
-        width: 288px;
+        max-width: 288px;
         margin-top: 0px;
-        margin-left: 16px;
+        padding-left: 16px;
     }
 }

@@ -6,14 +6,20 @@
     margin: 32px auto 64px auto;
     line-height: 36px;
     font-weight: 400;
-    width: 640px;
+    max-width: 640px;
 }
 
 @media (max-width: 900px) {
     .lead__subtitle {
+        margin: 32px auto auto auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .lead__subtitle {
+        margin: 16px auto auto auto;
         font-size: 16px;
         line-height: 20px;
-        margin: 16px auto auto auto;
-        width: 288px;
+        width: 288px
     }
 }

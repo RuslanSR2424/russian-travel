@@ -1,21 +1,22 @@
 .lead {
-  max-width: calc(100% - 296px);
+  align-items: center;
   justify-content: center;
   align-content: center;
   margin: 56px auto auto auto;
+  display: flex;               /* Я решил попробовать убрать размер элемента так как вы указали что до этого я его некорректно указал, вёрстка не сломалась надеюсь не самое худшее решение */
+  justify-content: center;
+  flex-direction: column;
 }
 
-@media (min-width: 831px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .lead {
-    margin: 48px 48px auto 48px;
-    max-width: calc(100% - 96px);
+    margin: 48px auto auto auto; 
   }
 }
 
 @media (min-width: 300px) and (max-width: 830px) {
   .lead {
     margin: 48px 0px auto 0px;
-    max-width: 100%;
   }
 }
 

@@ -2,30 +2,10 @@
   background-repeat: no-repeat;
   background-size: contain; 
   margin-top: 0px;
-  max-width: 984px;
-  max-height: 615px;
-  object-fit: contain;
+  object-fit: cover;
   object-position: 2%;
+  max-width: 100%;
 }
 
-@media (min-width: 841px) and (max-width: 1195px) {
-  .lead__image {
-    margin: 56px auto auto auto;
-    height: 580px;
-    width: 100%;
-  }
-}
 
-@media (min-width: 501px) and (max-width: 840px) {
-  .lead__image {
-    height: 480px;
-  }
-}
-
-@media  (max-width: 500px) {
-  .lead__image {
-    margin-top: 40px;
-    height: 200px;
-  }
-}
 

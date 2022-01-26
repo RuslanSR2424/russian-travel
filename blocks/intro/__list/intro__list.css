@@ -12,7 +12,7 @@
 }
  
  @media (min-width: 501px) and (max-width: 1025px) {
-     .intro__list {
+    .intro__list {
         margin-top: 33px
     }
 }

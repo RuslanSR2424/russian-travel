@@ -5,14 +5,19 @@
     line-height: 76px;
     color: #FFF;
     text-align: center;
-    margin: 0px;
+    margin: 0px 0px 32px 0px;
     max-width: 560px;
-    font-weight: 900;
+    padding-top: 20%;
 }
 
-@media  (max-width: 500px) {
+@media  (max-width: 750px) {
     .cover__title {
+        padding-top: 5%;
         font-size: 32px;
         line-height: 35px;
+        max-width: 240px; /* указал 240 а не 288 как в figme так как при большем размере текст не совпадает с отступами в figme */
+        margin: 0px 0px 16px 0px;
+        padding-top: 5%;
     }
 }
+
