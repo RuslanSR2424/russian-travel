@@ -1,18 +1,7 @@
 .place__text {
-    max-width: 484px;
+    max-width: 650px;
     display: flex;
     flex-direction: column;   
 }
 
   
-@media (min-width: 900px) and (max-width: 1024px) {
-    .place__text {
-        max-width: 456px;
-    }
-}
-
-@media  (max-width: 900px) {
-    .place__text {
-        max-width: 288px;
-    }
-} 

@@ -1,23 +1,24 @@
 .place__image {
     margin: 0px;
+    object-fit: contain;
 }
 
 @media (min-width: 831px) and (max-width: 1250px) {
     .place__image {
-        width: 440px;
-        height: 440px;
+        max-width: 440px;
+        max-height: 440px;
     }
 }
   
 @media (min-width: 750px) and (max-width: 830px) {
     .place__image {
-        width: 340px;
-        height: 340px;
+        max-width: 340px;
+        max-height: 340px;
     }
 }
 
 @media  (max-width: 749px) {
     .place__image {
-        max-width: 100%;
+        width: 100%;
     }
 }

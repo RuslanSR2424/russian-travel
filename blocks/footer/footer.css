@@ -1,5 +1,5 @@
 .footer {
-  margin: 92px 48px 26px 48px;
+  margin: 92px 48px 24px 48px;
   max-width: 1184px;
   display: flex;
   flex-wrap: wrap;
@@ -10,14 +10,14 @@
 
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    .footer {
+  .footer {
     max-width: 928px;
   }
 }
 
 
-@media (min-width: 431px) and (max-width: 768px) {
-    .footer {
+@media (min-width: 431px) and (max-width: 790px) {
+  .footer {
     max-width: 720;
     margin: 88px 24px 24px 24px;
   }
@@ -25,7 +25,7 @@
 
   
 @media (max-width: 430px) {
-    .footer {
+  .footer {
     max-width: 186px;
     flex-direction: column;
     margin-left: 15px;

@@ -2,22 +2,21 @@
   display: grid;
   grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
   gap: 40px 48px;
-  padding: 2px;
+  margin-top: 80px;
 }
+
 
 @media (min-width: 831px) and (max-width: 1024px) {
   .place {
-    gap: 32px 48px;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 54px; /* по макету отступ должен быть 80px но так как у paragraph есть нижний отступ 26px потому я указал здесь разницу чтобы они при сложении образовали отступ в 80px */
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
   
-@media (min-width: 758px) and (max-width: 830px) {
+@media (min-width: 756px) and (max-width: 830px) {
   .place {
-    grid-template-columns: repeat(2, 1fr);
     gap: 48px 28px;
-    margin-top: 47px;  
+    margin-top: 73px;   
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));  
   }
 }
 
@@ -25,5 +24,8 @@
   .place {
     gap: 32px;
     grid-template-columns:  1fr;
+    margin-top: 50px;  
   }
 }
+
+/* https://webformyself.com/kolonki-s-avtomaticheskim-podborom-razmerov-v-css-grid-auto-fill-ili-auto-fit/ */

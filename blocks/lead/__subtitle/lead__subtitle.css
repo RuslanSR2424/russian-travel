@@ -3,16 +3,10 @@
     color: #FFF;
     font-size: 30px;
     text-align: center;
-    margin: 32px auto 64px auto;
+    margin: 32px auto 0px auto;
     line-height: 36px;
     font-weight: 400;
     max-width: 640px;
-}
-
-@media (max-width: 900px) {
-    .lead__subtitle {
-        margin: 32px auto auto auto;
-    }
 }
 
 @media (max-width: 600px) {

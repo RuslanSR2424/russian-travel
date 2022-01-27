@@ -8,6 +8,9 @@
     margin: 0px 0px 32px 0px;
     max-width: 560px;
     padding-top: 20%;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
 }
 
 @media  (max-width: 750px) {

@@ -7,10 +7,10 @@
   letter-spacing: 1.5px;
   margin: 0px;
   text-transform: uppercase; 
+  box-sizing: border-box;
 }
 
-
-@media (min-width: 501px) and (max-width: 830px) {
+@media (min-width: 501px) and (max-width: 1018px) {
   .lead__caption {
     margin-left: 24px;
   }

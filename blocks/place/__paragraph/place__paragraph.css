@@ -4,11 +4,12 @@
     font-size: 18px;
     line-height: 163%;
     font-weight: normal;
-    margin-bottom: 26px;
     margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
 }
 
-@media (min-width: 750px) and (max-width: 830px) {
+@media (max-width: 830px) {
     .place__paragraph {
         font-size: 16px;
     }
@@ -16,8 +17,8 @@
 
 @media  (max-width: 755px) {
     .place__paragraph {
-        margin-bottom: 25px;
         padding-left: 16px;
         padding-right: 16px;
     }
 }
+

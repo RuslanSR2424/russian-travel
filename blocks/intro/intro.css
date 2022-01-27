@@ -1,18 +1,19 @@
 .intro {
-  margin: 92px auto auto 142px;
+  margin: 92px auto auto auto;
   display: block;
-  max-width: 690px;
+  max-width: 982px;
 }
 
-@media (min-width: 501px) and (max-width: 830px) {
+
+@media (min-width: 501px) and (max-width: 1024px) {
   .intro {
-    margin: 88px 24px auto 24px;
+    margin: 88px 48px auto 48px;
   }
 }
 
 @media  (max-width: 500px) {
   .intro {
-    margin: 64px 16px auto 16px;
+    margin: 0px 16px auto 16px;
     max-width: 288px
   }
 }
