@@ -4,10 +4,15 @@
   max-width: 982px;
 }
 
-
-@media (min-width: 501px) and (max-width: 1024px) {
+@media (min-width: 775px) and (max-width: 1024px) {
   .intro {
-    margin: 88px 48px auto 48px;
+    margin: 92px 48px auto 48px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 774px) {
+  .intro {
+    margin: 88px 24px auto 24px;
   }
 }
 

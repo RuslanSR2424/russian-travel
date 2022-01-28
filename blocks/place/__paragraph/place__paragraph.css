@@ -22,3 +22,6 @@
     }
 }
 
+.place__paragraph:last-of-type {
+    padding-bottom: 0px;
+}
